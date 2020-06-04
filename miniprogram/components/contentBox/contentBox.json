@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-input": "../../style/dist/input/index"
+  },
+  "component": true
+}

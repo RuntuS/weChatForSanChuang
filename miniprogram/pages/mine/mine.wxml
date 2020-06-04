@@ -1,0 +1,45 @@
+<cu-custom bgColor="bg-gradual-blue" >
+  <view slot="content">首页</view>
+</cu-custom>
+
+<view class="frame">
+
+  <view class="infBox">
+    <info>
+      <text class="infonam">{{nickName}}</text>
+      <text class="isid" wx:if="{{!isid}}">未实名</text>
+      <text class="isid" wx:else>已实名</text>
+    </info>
+    <image class="infopic" src='{{avatarUrl}}'></image>
+  </view>
+  
+  
+  <f>
+    <fe>
+      <data>{{d1}}</data>
+      <unda>钱包提现</unda>
+    </fe>
+    <fm>
+      <data>{{d2}}%</data>
+      <unda>我的简历</unda>
+    </fm>
+    <fe>
+      <data>{{d3}}分</data>
+      <unda>积分赚取</unda>
+    </fe>
+  </f>
+</view>
+
+
+  <view class="userinfo-container">
+    <block wx:for="{{userListInfo}}">
+        <view class="weui_cell" bindtap="turnTo" data-repname="{{item}}">
+            <view class="weui_cell_hd"><image src="{{item.icon}}"></image></view>
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p">{{item.text}}</view>
+            </view>
+            <view wx:if="{{item.isunread}}" class="badge">{{item.unreadNum}}</view>
+            <view wx:if="{{!(item.isunread)}}" class="weui_cell_hd_arrow"><image class="weui_cell_hd_arrow" src="/images/arrow-right.png"></image></view>
+        </view>
+    </block>
+  </view>

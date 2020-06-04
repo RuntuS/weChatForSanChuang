@@ -1,0 +1,1 @@
+<cu-custom bgColor="bg-gradual-blue" isCustom="{{true}}"><view slot="content">{{pageName}}</view></cu-custom>

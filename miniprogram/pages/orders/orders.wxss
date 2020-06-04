@@ -1,0 +1,11 @@
+/* miniprogram/pages/orders/orders.wxss */
+
+.Content{
+  margin-top: 50rpx;
+  background-color: white;
+  padding-bottom: 100rpx;
+}
+
+.content{
+  margin-top: 50rpx;
+}

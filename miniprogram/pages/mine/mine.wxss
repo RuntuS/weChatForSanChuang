@@ -1,0 +1,154 @@
+.frame{
+  position: relative;
+  height: 275rpx;
+  justify-content: space-around;
+  box-sizing: border-box;
+  padding-top: 50rpx;
+  background-color: white;
+}
+
+
+
+.infBox{
+  display: flex; 
+  align-items: center;
+  justify-content: space-around;
+}
+info{
+  position: relative;
+}
+
+
+
+.infonam{
+  font-size:200%;
+  font-weight:bold;
+  padding-left: 50rpx;
+  vertical-align: middle;
+}
+
+
+.isid{
+  font-size: 80%;
+  padding-left: 50rpx;
+  font-weight: bold;
+  left: 10rpx;
+  color: #ffff;
+  position: relative;
+  background-color: orangered;
+  background-clip: border-box;
+  padding-top: 10rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  padding-bottom: 10rpx;
+  border-radius: 40px;
+  vertical-align: middle;
+}
+.infopic{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+
+f{
+  background-color: white;
+  position: relative;
+  display: flex;
+  margin-top: 50rpx;
+  padding-bottom: 10rpx;
+  border-bottom:solid gray 1px;
+}
+fe{
+  flex: 1;
+  align-items: center;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+}
+fm{
+  flex:1;
+  align-items: center;
+  display: flex;
+  position: relative;
+  flex-flow: column;
+  height: 100rpx;
+  border-left:gray solid 1px;
+  border-right:gray solid 1px;
+}
+data{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 110%;
+  color: orangered;
+}
+unda{
+  position: relative;
+  font-size: 80%;
+  bottom: -15rpx;
+}
+
+
+.userinfo-container{
+  background-color: white;
+  margin-top: 200rpx;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  justify-content: space-between;
+  border-top: 0.5px solid black;
+}
+
+.weui_cell{
+    position: relative;
+    display: flex;
+    padding: 15px;
+    width: 100%;
+    align-items: center;
+    border-collapse: collapse;
+    border-bottom: 0.5px solid black;
+}
+.weui_cell_hd{
+  display: inline-block;
+  width: 20px;
+  margin-right: 20px;
+}
+.weui_cell_hd_arrow{
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 315rpx;
+  vertical-align: -5px;
+}
+.weui_cell_hd image{
+  width: 100%;
+  height: 20px;
+  vertical-align: -5px;
+}
+.weui_cell_bd{
+  display: inline-block;
+}
+.weui_cell_bd_p{
+  font-size: 14px;
+}
+.badge{
+  position: absolute;
+  top: 18px;
+  right: 40px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  background: #ff0000;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 8px;
+}
+.with_arrow{
+  position: absolute;
+  top: 18px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

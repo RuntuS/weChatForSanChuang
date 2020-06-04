@@ -1,0 +1,24 @@
+<!--miniprogram/components/contentBox/contentBox.wxml-->
+<view class="contentBox" style="height : {{height}};"> 
+    <view class="firstFloor">
+      <view class="title">{{innertext.title}}</view>
+      <view class="money" >{{innertext.money}}</view>
+    </view>
+    <view  class="tags secondFloor"  wx:if="{{!innertext.hasOrder}}">
+      <view class="{{item.tagClass}}" wx:for="{{innertext.tags}}">
+      {{item.title}}
+      </view>
+    </view>
+    <view wx:else   class="finishStatus {{finishClass}}">
+      {{finishStatus}}
+    </view>
+    <view class="thirdFloor">
+      <view class="selfInf">
+        <image src="{{innertext.who.imageUrl}}"></image>
+        <text >{{innertext.who.name}}</text>
+      </view>
+      <view class="where">
+        {{innertext.where}}
+      </view>
+    </view>
+</view>

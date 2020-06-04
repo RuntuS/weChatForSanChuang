@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-input": "../../style/dist/input/index",
+    "content-box" : "../../components/contentBox/contentBox"
+  }
+}
