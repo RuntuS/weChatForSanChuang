@@ -48,8 +48,8 @@
 
 <view class="mainContent">
   <view class="cainixihuan">猜你需要</view>
-  <view wx:for="{{contentArray}}" class="content">
-    <content-box innertext="{{item}}">
+  <view wx:for="{{contentArray}}" class="content"  >
+    <content-box innertext="{{item}}" bindtap="toDetailedPage" data-item="{{item}}">
     </content-box>
   </view>
 </view>

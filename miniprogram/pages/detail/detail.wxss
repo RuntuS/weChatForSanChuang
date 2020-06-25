@@ -1,0 +1,26 @@
+/* miniprogram/pages/detail/detail.wxss */
+.first-floor{
+  position: relative;
+  height: 250rpx;
+  border: 1px solid black;
+}
+
+.floor-1-1{
+  height: 50%;
+  border: 1px solid red;
+}
+.floor-1-1 > .title{
+  box-sizing: border-box;
+  padding-left: 30rpx;
+  font-size: 50rpx;
+  font-weight: 500;
+}
+
+.floor-1-1 > .money{
+  text-align: right;
+  border: 1px solid black;
+  padding-right: 30rpx;
+  color: #5FEED9;
+  font-size: 40rpx;
+
+}

@@ -1,0 +1,16 @@
+<cu-custom bgColor="bg-gradual-blue" isCustom="{{true}}"><view slot="content">测试</view></cu-custom>
+
+<view class="first-floor ">
+  <view class="floor-1-1 flex align-center">
+    <view class="flex-treble title">前端实习开发生</view>
+    <view class="flex-sub money">4k-7k</view>
+  </view>
+  <view class="floor-1-2 ">
+    <view class="where">
+
+    </view>
+    <view class="time">
+    
+    </view>
+  </view>
+</view>

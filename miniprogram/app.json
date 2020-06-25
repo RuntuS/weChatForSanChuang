@@ -1,14 +1,16 @@
 {
   "pages": [
     "pages/mine/mine",
-    "pages/index/index",
-    "components/contentBox/contentBox",
-    "pages/orders/orders",
+    "pages/detail/detail",
     
+    
+    "pages/index/index",
+    "pages/orders/orders",
     "pages/upload/upload",
     "pages/CustomerService/CustomerService",
     "pages/favorites/favorites",
     "pages/settings/settings"
+    
   ],
   "tabBar": {
     "color": "#a9b7b7",

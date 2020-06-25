@@ -50,7 +50,7 @@ Page({
     }],
     cardCur: 0,
     contentArray : [{
-      title : "电子科技大学招收撤shuoer工",
+      title : "平台UI设计",
       mainContent : "电子科技大学招收撤shuoer工，欢迎打杂",
       tags : [
         {
@@ -81,7 +81,7 @@ Page({
       tagClass : ""
     },
     {
-      title : "电子科技大学招收撤shuoer工",
+      title : "平台UI设计",
       mainContent : "电子科技大学招收撤shuoer工，欢迎打杂",
       tags : [
         {
@@ -112,7 +112,7 @@ Page({
       isFinish :  false
     },
     {
-      title : "电子科技大学招收撤shuoer工",
+      title : "平台UI设计",
       mainContent : "电子科技大学招收撤shuoer工，欢迎打杂",
       tags : [
         {
@@ -243,6 +243,12 @@ Page({
         swiperList: list
       })
     }
+  },
+
+
+  toDetailedPage(event){
+    console.log(event.target);
   }
+
 
 })
